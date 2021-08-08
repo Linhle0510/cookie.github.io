@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="template::header('Blog')">
+</head>
+<body>
+<nav th:replace="template::menu"></nav>
+  <h2 class="text-center">Welcome to My Blog</h2>
+  <ul class="list-unstyled">
+    <li class="media">
+      <img class="mr-3" src="https://nordiccoder.com/app/uploads/2019/10/39-frontend.jpg" alt="Generic placeholder image" width="200px" height="200px">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Back End </h5>
+        BackEnd là gì? Một câu hỏi được đặt ra khi các bạn đang bắt đầu tìm hiểu về lập trình và nhất là lập trình phát triển các Website. Các ứng dụng phần mềm giống như những tảng băng trôi.
+
+
+      </div>
+    </li>
+    <li class="media my-4">
+      <img class="mr-3" src="https://nordiccoder.com/app/uploads/2019/12/44-t%C3%A0i-li%E1%BB%87u-h%E1%BB%8Dc-golang-1024x406.png" alt="Generic placeholder image" width="200px" height="200px">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Xu thế Golang</h5>
+        Xu thế Golang khiến cho nó “đặc biệt” với các ngôn ngữ khác. Nó còn trẻ nhưng mạnh mẽ đến mức có thể mang đến sự tham gia của các chuyên viên máy tính ngay từ đầu. Goroutines đã tạo sự cạnh tranh về lập trình trên tất cả các cấp độ khác như web backend. Các ứng dụng được viết trên Go có hiệu suất cao
+      </div>
+    </li>
+    <li class="media">
+      <img class="mr-3" src="https://nordiccoder.com/app/uploads/2020/08/95-AI-cho-di-dong.jpg" alt="Generic placeholder image" width="200px" height="200px">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">7 công cụ AI dành cho lập trình viên di động</h5>
+        Những tiến bộ trong trí tuệ nhân tạo (AI) và machine learning đã cho phép sự phát triển của các công cụ AI trong ứng dụng di động mà chúng ta thấy ngày nay. Với AI, các ứng dụng hiện có khả năng nhận dạng giọng nói, hình ảnh, cử chỉ và dịch giọng nói với tỷ lệ thành công phi thường.
+      </div>
+    </li>
+  </ul>
+<footer th:replace="template::footer"></footer>
+</body>
+</html>
